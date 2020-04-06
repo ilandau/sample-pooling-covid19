@@ -1,5 +1,7 @@
 function [num_tests, b_initial] = onetime_pooling(p, N, max_batch_size, preset_ranges)
-% Uses method of Optimal One-Time Pooling to test N total samples with frequency of positives, p,
+% Uses method of Optimal One-Time Pooling to test N total samples with frequency of positives, p
+% 	Source: "Efficient and Practical Sample Pooling for High-Throughput PCR Diagnosis of COVID-19" (Shani-Narkiss et al 2020)
+%
 % INPUTS:
 % p - frequency of positives
 % N - total number of samples (will be rounded to allow whole number of batches)
