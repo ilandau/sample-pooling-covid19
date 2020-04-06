@@ -1,5 +1,6 @@
 function [num_tests, b_initial] = repeated_pooling(p,N, max_batch_size, min_batch_size, round_down)
 % Uses method of Repeated Pooling to test N total samples with frequency of positives, p,
+%  Source: "Efficient and Practical Sample Pooling for High-Throughput PCR Diagnosis of COVID-19" (Shani-Narkiss et al 2020)
 %
 % INPUTS:
 % p - frequency of positives
